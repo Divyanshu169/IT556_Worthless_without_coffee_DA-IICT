@@ -1,3 +1,4 @@
+##Changing number of users##
 from sklearn.random_projection import sparse_random_matrix
 import numpy as np
 import surprise
