@@ -1,4 +1,4 @@
-
+### Changing the number of splits ###
 from sklearn.random_projection import sparse_random_matrix
 import numpy as np
 import surprise
@@ -67,7 +67,7 @@ time_plot=[]
 mem_plot=[]
 
 
-for i in range(2,4):
+for i in range(2,15):
 
     process = psutil.Process(os.getpid())
     mem_before = process.memory_info().rss
