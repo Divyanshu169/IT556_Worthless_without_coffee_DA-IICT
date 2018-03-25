@@ -61,7 +61,7 @@ time_plot = []
 mem_plot = []
 
 
-for i in range(11,12):
+for i in range(6,12):
 
     process = psutil.Process(os.getpid())
     mem_before = process.memory_info().rss
